@@ -28,6 +28,12 @@ public class LivingThing {
         this.dead = dead;
     }
 
+    /**
+     *コンストラクタ。名前、最大HP、最大攻撃力をprintfで表示する。
+     * @param name　それぞれの名前
+     * @param maximumHP　それぞれの最大HP
+     * @param attack　それぞれの最大攻撃力
+     */
     public LivingThing (String name, int maximumHP, int attack) {
         this.name = name;
         hitPoint = maximumHP;
